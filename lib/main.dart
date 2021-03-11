@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TabView(),
-      // home: BottomScreen(),
+      // home: TabView(),
+      home: BottomScreen(),
     );
   }
 }
